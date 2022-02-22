@@ -1,0 +1,52 @@
+html {
+    background-image: url("https://images.unsplash.com/photo-1580234811497-9df7fd2f357e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+
+.topnav a:hover {
+    background-color: orangered;
+}
+
+.create-account-btn {
+    position: relative;
+    background-color: orange;
+    float: right;
+    display: block;
+    border: 10px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.main {
+    width: 100%;
+    margin: auto auto;
+    text-align: center;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    color: white;
+    font-weight: bold;
+}
